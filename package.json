@@ -1,21 +1,20 @@
 {
   "name": "gatsby-starter-hero-blog",
   "version": "2.0.0",
-  "author": "Greg Lobinski <greglobinski@gmail.com>",
+  "author": "Sanar Creando <info@sanarcreando.com>",
   "license": "MIT",
   "dependencies": {
     "antd": "^3.7.0",
     "fontfaceobserver": "^2.0.13",
-    "gatsby": "^2.0.21",
-    "gatsby-image": "^2.0.5",
+    "gatsby": "^2.0.76",
+    "gatsby-image": "^2.0.20",
     "gatsby-plugin-algolia": "^0.1.0",
     "gatsby-plugin-catch-links": "^2.0.2",
     "gatsby-plugin-feed": "^2.0.5",
     "gatsby-plugin-google-analytics": "^2.0.6",
     "gatsby-plugin-layout": "^1.0.2",
     "gatsby-plugin-manifest": "^2.0.2",
-    "gatsby-plugin-netlify": "^2.0.0",
-    "gatsby-plugin-offline": "^2.0.6",
+    "gatsby-plugin-offline": "^2.0.24",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-react-svg": "^2.0.0",
     "gatsby-plugin-sharp": "^2.0.5",
@@ -64,6 +63,7 @@
     "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
     "lint": "eslint src/**/*.{js,jsx}",
     "stylelint": "stylelint src/**/*.js",
+    "deploy": "gatsby build --prefix-paths && cp ./src/CNAME public/ && gh-pages -d public",
     "generate-app-icons": "sh ./scripts/generate-app-icons.sh"
   },
   "devDependencies": {

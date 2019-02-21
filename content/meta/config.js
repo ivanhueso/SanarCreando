@@ -2,8 +2,9 @@ module.exports = {
   siteTitle: "Sanar Creando - a GatsbyJS starter", // <title>
   shortSiteTitle: "Sanar Creando", // <title> ending for posts and pages
   siteDescription:
-    "El libro SANAR SIN FRONTERAS está escrito por un psicólogo, un investigador en medicina, (ambos “Terapeutas Akáshicos”), y un empresario, amigo de Eri",
-  siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com",
+    "Un espacio para reencontrase, sanarse creando, gracias al compartir de nuestros corazones",
+  siteUrl: "https://www.sanarcreando.com",
+  //  pathPrefix: "/public",
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
